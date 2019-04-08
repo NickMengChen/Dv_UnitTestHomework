@@ -23,6 +23,15 @@ public class Answer {
     public static Answer createAnswer(String inputStr) {
         Answer answer = new Answer();
         List<String> inputList = Arrays.stream(inputStr.split(" ")).collect(Collectors.toList());
+//        List<String> inputList = new ArrayList<>();
+//        inputList.add("1");
+//        inputList.add("2");
+//        inputList.add("3");
+//        inputList.add("4");
+//
+//        System.out.println(inputList);
+
+
         answer.setNumList(inputList);
         return answer;
     }
