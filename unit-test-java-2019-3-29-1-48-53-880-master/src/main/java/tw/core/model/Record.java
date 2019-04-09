@@ -19,4 +19,5 @@ public class Record {
     public void increaseIncludeOnlyNum() {
         this.value[1]++;
     }
+
 }
